@@ -1,0 +1,60 @@
+html{
+    box-sizing: border-box;
+}
+*, *:before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-image: url("../images/bg.jpg");
+    background-attachment: fixed;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+
+header{
+    text-align: center;
+    margin: 40px;
+    font-family: 'Lobster', cursive;
+
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: rgb(56, 56, 56);
+    padding: 30px;
+    border: 2px solid black;
+}
+
+.link-input .btns {
+    margin-top: 10px;
+}
+
+.link-input input, .link-input button{
+    padding: 7px;
+    font-size: 18px;
+    margin: 10px;
+     
+}
+
+#link-display{
+    margin-top: 30px;
+}
+
+#link-display a:{
+    display: block;
+    font-size: 150%;
+}
+
+button {
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(112, 10, 10);
+    color: white;
+    
+}
